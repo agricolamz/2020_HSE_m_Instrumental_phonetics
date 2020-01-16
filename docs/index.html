@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Instrumental Phonetics 2020</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Instrumental Phonetics 2020</h1>
+
+</div>
+
+
+<p><a href="https://www.hse.ru/data/2018/01/26/1162932180/program-1719609140-3tWrq6PIZD.pdf">Here</a> is a link to a course programme.</p>
+<p>Final Mark =0.6 <span class="math inline">\(\times\)</span> (HW) + 0.4 <span class="math inline">\(\times\)</span> (Exam)</p>
+<div id="introduction-to-acoustic-phonetics" class="section level3">
+<h3>1. Introduction to Acoustic Phonetics</h3>
+<ul>
+<li>(17.01.2019) <a href="https://github.com/agricolamz/2020_HSE_m_Instrumental_phonetics/raw/master/docs/20.01.16_Acoustic_Phonetics_lec_1.pdf">Lec 1</a>, <a href="https://pudding.cool/2018/02/waveforms/">additional materials on waves</a></li>
+<li>(16.01.2020) Lab 1: <a href="http://www.fon.hum.uva.nl/praat/">Praat</a>. Symbols for <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__consonants_1.png">consonats</a>, <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__vowels_1.png">vowels</a> and <a href="http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__diacritics.html">diacritics</a></li>
+<li>HW 1 (23.01.2020) I’ll send you a chapter from some hadbook on articulation and sounds types. We will have a little test on it.</li>
+<li>HW 2 (due to 30.01.2020):
+<ul>
+<li>Create the annotation for <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/andi_plosives.wav?raw=true">this sound file</a> containing words <em>bek’:ub</em> (hot), <em>wuk:udu</em> (fall down), <em>tʃ’ek’a</em> (foot) and <em>t’uka</em> (goat). Here is <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw1.png">an example</a>.</li>
+<li>Send the <code>.TextGrid</code> file to the course assistant <a href="mailto:aplooon@gmail.com">Katya Aplonova</a> with topic <code>Instrumental Phonetics: HW 1</code></li>
+</ul></li>
+</ul>
+</div>
+<div id="vowels.-formants" class="section level3">
+<h3>2. Vowels. Formants</h3>
+<ul>
+<li>(23.01.2020) Lec 2</li>
+<li><a href="https://goo.gl/IzpUyo">sound</a></li>
+<li><a href="https://goo.gl/4tGthZ">TextGrid</a></li>
+<li><a href="https://goo.gl/zPm7Od">extracted formant values</a></li>
+<li><a href="http://www.helsinki.fi/%7Elennes/praat-scripts/public/calculate_segment_durations.praat">Lennes M. (2002) Calculate segment durations</a></li>
+<li><a href="https://goo.gl/MUBpPw">Kawahara (??) Extract formant chart</a></li>
+<li><a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/plot_duration.R">R script for the visualisation of duration</a></li>
+</ul>
+</div>
+<div id="sonorants" class="section level3">
+<h3>3. Sonorants</h3>
+<ul>
+<li>(30.01.2018) Lec 3</li>
+<li>(31.01.2019) Lab 3</li>
+<li><a href="https://goo.gl/5D9DNR">Andi nasals</a></li>
+</ul>
+</div>
+<div id="obstruents" class="section level3">
+<h3>4. Obstruents</h3>
+<ul>
+<li>(…) Lec 4</li>
+<li>(…) Lab 4</li>
+<li><a href="https://goo.gl/hvdviI">fricatives</a>, <a href="https://goo.gl/pza6tx">fricatives’ TextGrid</a>, Extracted data: <a href="https://goo.gl/wo3QZN">ɬ</a>, <a href="https://goo.gl/eNZQKa">s</a>, <a href="https://goo.gl/NgeVSX">sh</a>, <a href="https://goo.gl/oDYvbJ">x</a>, <a href="https://goo.gl/vZQfZG">χ</a></li>
+<li><a href="https://goo.gl/SdGlZr">fricatives’ R script</a></li>
+</ul>
+</div>
+<div id="prosody" class="section level3">
+<h3>5. Prosody</h3>
+<ul>
+<li>(…) Lec 5</li>
+</ul>
+</div>
+<div id="guess-the-word" class="section level3">
+<h3>6. Guess the word</h3>
+<ul>
+<li>(…) Lab 6</li>
+<li><a href="https://goo.gl/PZA8WY">plosives</a>, <a href="https://goo.gl/1ZFtJt">plosives’ TextGrid</a>, Extracted data: <a href="https://goo.gl/NExChs">plosives’ duration</a></li>
+<li><a href="https://gist.githubusercontent.com/agricolamz/c4c5e6dfd5cfcd8052e5f03db7b12f64/raw/54248887fef342aad90db42f5439456dda5f1d88/CD_VOT.R">plosives’ R script</a></li>
+<li>HW 3 (due to …):
+<ul>
+<li>watch all videos about palatography <a href="https://www.youtube.com/watch?v=wCDuh6dfw6g&amp;index=1&amp;list=PL1741BF0646F7DEEF">1st</a>, <a href="https://www.youtube.com/watch?v=2XEJVs6XbYA&amp;index=2&amp;list=PL1741BF0646F7DEEF">2nd</a>, <a href="https://www.youtube.com/watch?v=kC1x63lgulM&amp;list=PL1741BF0646F7DEEF&amp;index=3">3rd</a>, <a href="https://www.youtube.com/watch?v=llP36cePiMM&amp;list=PL1741BF0646F7DEEF&amp;index=4">4th</a>, <a href="https://www.youtube.com/watch?v=CqN-mh02o5U&amp;list=PL1741BF0646F7DEEF&amp;index=5">5th</a>, <a href="https://www.youtube.com/watch?v=8Sh5hFnIuS4&amp;index=6&amp;list=PL1741BF0646F7DEEF">6th</a></li>
+</ul></li>
+<li>HW 4 (due to …):
+<ul>
+<li>Download <a href="https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/mehweb_dental_stops_affricates.wav?raw=true">the sound</a> and the <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/mehweb_dental_stops_affricates.TextGrid">TextGrid file</a></li>
+<li>Annotate CD and VOT</li>
+<li>Create three pictures with R that we discussed in class (example: <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_1.jpeg">pic 1</a>, <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_2.jpeg">pic 2</a>, <a href="https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_3.jpeg">pic 3</a>)</li>
+<li>Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives?
+<ul>
+<li>Send the <code>.TextGrid</code> file, pics and text to the course assistant … with topic <code>Instrumental Phonetics: HW 2</code></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+<div id="methods-of-phonetic-investigation" class="section level3">
+<h3>7. Methods of phonetic investigation</h3>
+<ul>
+<li>(…) Lec 7</li>
+<li>(…) Lab 7</li>
+</ul>
+</div>
+<div id="perception" class="section level3">
+<h3>8. Perception</h3>
+<ul>
+<li>(…) Lec 8</li>
+</ul>
+</div>
+<div id="speech-recognition-and-synthesis" class="section level3">
+<h3>9. Speech recognition and synthesis</h3>
+<ul>
+<li>(…) Lec 9</li>
+<li>(…) <a href="http://www.praatvocaltoolkit.com/download-installation.html">Praat Vocal Toolkit</a>, <a href="http://stevehanov.ca/wavelet/">Wavelet sound explorer</a></li>
+</ul>
+</div>
+<div id="fieldwork.-phonological-and-phonetic-description" class="section level3">
+<h3>10. Fieldwork. Phonological and phonetic description</h3>
+<ul>
+<li>(23.03.2019)</li>
+</ul>
+</div>
+<div id="exam" class="section level3">
+<h3>EXAM</h3>
+</div>
+<div id="useful-links" class="section level3">
+<h3>Useful links</h3>
+<ul>
+<li><a href="https://pudding.cool/2018/02/waveforms/">Interactive tutorials on waves</a></li>
+<li><a href="http://sail.usc.edu/span/rtmri_ipa/index.html">the real-time MRI IPA charts</a></li>
+</ul>
+</div>
+<div id="reference" class="section level3">
+<h3>Reference:</h3>
+<ul>
+<li>Ashby, M., J. Maidment (2005). Introducing phonetic science. Cambridge University Press.</li>
+<li>Bickford, A. C., R. Floyd (2006). Articulatory Phonetics: Tools for Analyzing the World’s Languages SIL International.</li>
+<li>Boersma, P., D. Weenink (2013). Praat: doing phonetics by computer (version 5.3.51)[computer program]. retrieved 2 june 2013.</li>
+<li>Fant, G. (1971). Acoustic theory of speech production: with calculations based on X-ray studies of Russian articulations, Volume 2. Walter de Gruyter.</li>
+<li>Fuchs, S., M. Toda„ M. Żygis (2010). Turbulent sounds: an interdisciplinary guide, Volume 21. Walter de Gruyter.</li>
+<li>Fulop, S. (2011). Speech spectrum analysis. Springer Science &amp; Business Media.</li>
+<li>Gick, B., I. Wilson D. Derrick (2012). Articulatory phonetics. John Wiley &amp; Sons.</li>
+<li>Gordon, M., P. Ladefoged (2001). Phonation types: a cross-linguistic overview. Journal of Phonetics 29 (4), 383–406.</li>
+<li>Harrington, J. (2010). Phonetic analysis of speech corpora. John Wiley &amp; Sons.</li>
+<li><a href="https://dspace.mit.edu/bitstream/handle/1721.1/52797/547382338-MIT.pdf;sequence=2">Hon Hunt, E. (2009). Acoustic Characterization of the Glides /j/ and /w/ in American English</a></li>
+<li>Johnson, K. (2011). Acoustic and auditory phonetics. John Wiley &amp; Sons.</li>
+<li>Ladefoged, P., S. F. Disner (2012). Vowels and consonants. John Wiley &amp; Sons. Ladefoged, P., I. Maddieson. (1996). The Sounds of the World’s Languages Oxford, Cambridge: Blackwell Publishers.</li>
+<li>Rorabaugh, C. B. (2010). Notes on Digital Signal Processing: Practical Recipes for Design, Analysis and Implementation Prentice Hall</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
