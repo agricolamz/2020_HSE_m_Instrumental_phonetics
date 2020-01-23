@@ -8,12 +8,12 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 
 ### 1. Introduction to Acoustic Phonetics
 
-* (17.01.2019)	[Lec 1](https://github.com/agricolamz/2020_HSE_m_Instrumental_phonetics/raw/master/docs/20.01.16_Acoustic_Phonetics_lec_1.pdf), [additional materials on waves](https://pudding.cool/2018/02/waveforms/)
+* (16.01.2020)	[Lec 1](https://github.com/agricolamz/2020_HSE_m_Instrumental_phonetics/raw/master/docs/20.01.16_Acoustic_Phonetics_lec_1.pdf), [additional materials on waves](https://pudding.cool/2018/02/waveforms/)
 * (16.01.2020)	Lab 1: [Praat](http://www.fon.hum.uva.nl/praat/). Symbols for [consonats](http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__consonants_1.png), [vowels](http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__vowels_1.png) and [diacritics](http://www.fon.hum.uva.nl/praat/manual/Phonetic_symbols__diacritics.html)
 * HW 1 (23.01.2020) I'll send you a chapter from some hadbook on articulation and sounds types. We will have a little test on it.
 * HW 2 (due to 30.01.2020): 
     * Create the  annotation for [this sound file](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/andi_plosives.wav?raw=true) containing words *bek':ub* (hot), *wuk:udu* (fall down), *tʃ'ek'a* (foot) and *t'uka* (goat). Here is [an example](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw1.png).
-    * Send the `.TextGrid` file to the course assistant [Katya Aplonova](mailto:aplooon@gmail.com) with topic `Instrumental Phonetics: HW 1`
+    * Send the `.TextGrid` file to the course assistant [Sasha Shiryayev](mailto:ashiryaev87@gmail.com) with topic `Instrumental Phonetics: HW 1`
 
 ### 2. Vowels. Formants
 
