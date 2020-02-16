@@ -27,7 +27,7 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 
 ### 3. Reading spectrum
 
-* (06.02.2020)	[Lec 3](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/20.02.13 Reading spectrograms.pdf)
+* (06.02.2020)	[Lec 3](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/20.02.13_Reading_spectrograms.pdf)
 
 ### 4. Reading spectrum
 
