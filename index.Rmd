@@ -25,11 +25,11 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 * [Kawahara (??) Extract formant chart](https://goo.gl/MUBpPw)
 * [R script for the visualisation of duration](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/plot_duration.R)
 
-### 3. Reading spectrum: Segments
+### 3. Reading spectrum
 
-* (06.02.2020)	Lec 3
+* (06.02.2020)	[Lec 3](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/20.02.13 Reading spectrograms.pdf)
 
-### 4. Reading spectrum: Prosody
+### 4. Reading spectrum
 
 * (...02.2020)	Lec 4
 
