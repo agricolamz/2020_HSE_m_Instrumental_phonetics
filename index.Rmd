@@ -13,7 +13,7 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 * HW 1 (23.01.2020) I'll send you a chapter from some hadbook on articulation and sounds types. We will have a little test on it.
 * HW 2 (due to 30.01.2020): 
     * Create the  annotation for [this sound file](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/andi_plosives.wav?raw=true) containing words *bek':ub* (hot), *wuk:udu* (fall down), *tʃ'ek'a* (foot) and *t'uka* (goat). Here is [an example](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw1.png).
-    * Send the `.TextGrid` file to the course assistant [Sasha Shiryayev](mailto:ashiryaev87@gmail.com) with topic `Instrumental Phonetics: HW 1`
+    * Send the `.TextGrid` file to the course assistant [Sasha Shiryayev](mailto:ashiryaev87@gmail.com) with the topic `Instrumental Phonetics: HW 1`
 
 ### 2. Vowels. Formants
 
@@ -59,7 +59,7 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
     * Annotate CD and VOT
     * Create three pictures with R that we discussed in class (example: [pic 1](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_1.jpeg), [pic 2](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_2.jpeg), [pic 3](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/hw2_3.jpeg))
     * Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives?
-      * Send the `.TextGrid` file, pics and text to the course assistant [Sasha Shiryayev](mailto:ashiryaev87@gmail.com) with topic `Instrumental Phonetics: HW 2`
+      * Send the `.TextGrid` file, pics and text to the course assistant [Sasha Shiryayev](mailto:ashiryaev87@gmail.com) with the topic `Instrumental Phonetics: HW 2`
 
 ### 7. Methods of phonetic investigation
 
