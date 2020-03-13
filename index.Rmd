@@ -49,10 +49,8 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
 * [plosives](https://goo.gl/PZA8WY), [plosives' TextGrid](https://goo.gl/1ZFtJt), Extracted data: [plosives' duration](https://goo.gl/NExChs)
 * [plosives' R script](https://gist.githubusercontent.com/agricolamz/c4c5e6dfd5cfcd8052e5f03db7b12f64/raw/54248887fef342aad90db42f5439456dda5f1d88/CD_VOT.R)
 
-* HW 3 (due to 21.03.2020): 
-    * watch all videos about palatography [1st](https://www.youtube.com/watch?v=wCDuh6dfw6g&index=1&list=PL1741BF0646F7DEEF), [2nd](https://www.youtube.com/watch?v=2XEJVs6XbYA&index=2&list=PL1741BF0646F7DEEF), [3rd](https://www.youtube.com/watch?v=kC1x63lgulM&list=PL1741BF0646F7DEEF&index=3), [4th](https://www.youtube.com/watch?v=llP36cePiMM&list=PL1741BF0646F7DEEF&index=4), [5th](https://www.youtube.com/watch?v=CqN-mh02o5U&list=PL1741BF0646F7DEEF&index=5), [6th](https://www.youtube.com/watch?v=8Sh5hFnIuS4&index=6&list=PL1741BF0646F7DEEF)
-
-
+* HW 3 (due to 26.03.2020): 
+    * watch all videos about palatography (they will be in the exam) [1st](https://www.youtube.com/watch?v=wCDuh6dfw6g&index=1&list=PL1741BF0646F7DEEF), [2nd](https://www.youtube.com/watch?v=2XEJVs6XbYA&index=2&list=PL1741BF0646F7DEEF), [3rd](https://www.youtube.com/watch?v=kC1x63lgulM&list=PL1741BF0646F7DEEF&index=3), [4th](https://www.youtube.com/watch?v=llP36cePiMM&list=PL1741BF0646F7DEEF&index=4), [5th](https://www.youtube.com/watch?v=CqN-mh02o5U&list=PL1741BF0646F7DEEF&index=5), [6th](https://www.youtube.com/watch?v=8Sh5hFnIuS4&index=6&list=PL1741BF0646F7DEEF)
 
 * HW 4 (due to 26.03.2020):
     * Download [the sound](https://github.com/agricolamz/2018_m_Instrumental_Phonetics/blob/master/docs/materials/mehweb_dental_stops_affricates.wav?raw=true) and the [TextGrid file](https://raw.githubusercontent.com/agricolamz/2018_m_Instrumental_Phonetics/master/docs/materials/mehweb_dental_stops_affricates.TextGrid)
@@ -61,13 +59,9 @@ Final Mark =0.6 $\times$ (HW) + 0.4 $\times$ (Exam)
     * Write a short text analysing results: what is the difference in CD and VOT values between stops and affricates, ejectives and non-ejectives?
       * Send the `.TextGrid` file, pics and text to the course assistant [Sasha Shiryayev](mailto:ashiryaev87@gmail.com) with the topic `Instrumental Phonetics: HW 2`
 
-### 7. Methods of phonetic investigation
+### 7. Perception
 
-* (21?.03.2020) Lec 7
-
-### 8. Perception
-
-* (23.03.2020) Lec 8
+* (19.03.2020) Lec 8
 
 
 ### EXAM
